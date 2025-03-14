@@ -1,0 +1,119 @@
+/* General styles for the blog list container */
+.blog-list-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f9f9f9;
+    
+  }
+  
+  /* Styles for the loader */
+  .loader-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  /* Styles for the list of blogs */
+  .blogs-list {
+    list-style-type: none;
+    padding: 0;
+    width: 100%;
+    max-width: 800px;
+  }
+  
+  /* Styles for each blog item */
+  .blog-item {
+    background-color: #ffffff;
+    border-radius: 12px;
+    margin-bottom: 25px;
+    padding: 20px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  }
+  
+  .blog-item:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+  }
+  
+  /* Styles for the blog image */
+  .blog-item img.blog-image {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 8px;
+    margin-bottom: 15px;
+  }
+  
+  /* Styles for the blog title */
+  .blog-item h2 {
+    font-size: 26px;
+    font-weight: 600;
+    margin: 10px 0;
+    color: #333;
+  }
+  
+  /* Styles for the author details */
+  .author-details {
+    display: flex;
+    align-items: center;
+    margin: 15px 0;
+  }
+  
+  /* Styles for the author's avatar */
+  .author-details img.author-pic {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin-right: 12px;
+    border: 2px solid #00BFFF;
+  }
+  
+  /* Styles for the author's name */
+  .author-details p.details-author-name {
+    font-size: 18px;
+    font-weight: 500;
+    color: #555;
+    margin: 0;
+  }
+  
+  /* Styles for the blog topic */
+  .blog-item p.topic {
+    font-size: 16px;
+    color: #00BFFF;
+    font-weight: 500;
+    margin: 10px 0;
+    text-transform: uppercase;
+  }
+  
+  /* Responsive styles for smaller screens */
+  @media (max-width: 768px) {
+    .blog-list-container {
+      padding: 20px 10px;
+    }
+  
+    .blog-item {
+      padding: 15px;
+    }
+  
+    .blog-item h2 {
+      font-size: 22px;
+    }
+  
+    .author-details img.author-pic {
+      width: 40px;
+      height: 40px;
+    }
+  
+    .author-details p.details-author-name {
+      font-size: 16px;
+    }
+  
+    .blog-item p.topic {
+      font-size: 14px;
+    }
+  }

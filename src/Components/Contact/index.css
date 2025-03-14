@@ -1,0 +1,103 @@
+.contact-img{
+    width: 100px !important;
+}
+.contact-container{
+    display: flex;
+    justify-content: space-evenly;
+    padding: 20px;
+    background-color: #f1f1f1;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+.het{
+    font-weight: bold;
+    font-size: 20px;
+    margin-bottom: 10px;
+    cursor: pointer;
+    color: #f1f1f1;
+    background-color: #181818;
+    box-shadow: #3c543d;
+    padding: 10px;
+    transition: transform 0.3s;
+    border-radius: 10px;
+    width: 500px;
+
+
+}
+.contact-heading{
+    font-size: 24px;
+    font-weight: bold;
+    margin-top: 0px;
+}
+.contact-heading1{
+    font-size: 20px;
+    margin: 10px;
+}
+.gmail-container{
+    display: flex;
+    margin-bottom: 20px;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    justify-content: space-evenly;
+
+}
+.form-container{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    width: 400px;
+    margin-bottom: 50px;
+    padding: 20px;
+    background-image:linear-gradient(to right, rgb(189, 241, 189),rgb(169, 169, 244));
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    font-size: 16px;
+    font-weight: bold;
+    input{
+        padding: 10px;
+        border-radius: 5px;
+        border: none;
+        outline: none;
+    
+
+
+    }
+} 
+.contact-button{
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+    border-radius: 5px;
+    width: 50%;
+    margin: auto;
+    &:hover{
+        background-color: #3c543d;
+        transform: scale(1.05);
+    }
+}  
+
+
+.gmailspa{
+   display: flex;
+   gap: 20px; 
+   align-items: center;
+
+
+}
+.contact-paragraph3{
+    margin-top: 0px;
+    font-size: 16px;
+    font-weight: bold;
+    padding: 0px;
+    cursor: pointer;
+
+}
+.contact-headinga{
+    font-size: 24px;
+    font-weight: bold;
+    margin-top: 0px;
+}
